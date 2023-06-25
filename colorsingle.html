@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name='viewport' content='with=device-width, initial-scale=1.0'>
+    <title>Color Single</title>
+    <link rel='stylesheet' href='style3.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section class='header'>
+        <nav>
+           <div class="logo"><a href='index.html'><img src='jvis.gif'></a></div>
+            <div class='nav-links' id='navlinks'>
+                <i class="fa fa-times" onclick='hideMenu()'></i>
+                <ul>
+                  <li><a href='index.html'>Home</a></li>
+                  <li><a href='preface.html'>Preface</a></li>
+                  <li><a href='basic.html'>Basic</a></li>
+                  <li><a href='colorsingle.html'>Color Single</a></li>
+                  <li><a href='colorduo.html'>Color Duo</a></li>
+                  <li><a href='spiralcannon.html'>Sprial Cannon</a></li>
+                  <li><a href='spiraldiamondback.html'>Spiral Diamondback</a></li>
+                  <li><a href='supernova.html'>Supernova</a></li>
+                  <li><a href='next.html'>Next Steps</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div id="container3">
+      <canvas id="canvas3"></canvas>
+      <audio id="audio3" controls></audio>
+      <input type="file" id="fileupload3" accept="audio/*" />
+    </div>
+
+    <script src="script3.js"></script>
+</body>
+
+</html>

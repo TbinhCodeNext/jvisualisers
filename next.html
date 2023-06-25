@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name='viewport' content='with=device-width, initial-scale=1.0'>
+    <title>Next Steps (?)</title>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section class='header'>
+        <nav>
+            <div class="logo"><a href='index.html'><img src='jvis.gif'></a></div>
+            <div class='nav-links' id='navlinks'>
+                <i class="fa fa-times" onclick='hideMenu()'></i>
+                <ul>
+                  <li><a href='index.html'>Home</a></li>
+                  <li><a href='preface.html'>Preface</a></li>
+                  <li><a href='basic.html'>Basic</a></li>
+                  <li><a href='colorsingle.html'>Color Single</a></li>
+                  <li><a href='colorduo.html'>Color Duo</a></li>
+                  <li><a href='spiralcannon.html'>Sprial Cannon</a></li>
+                  <li><a href='spiraldiamondback.html'>Spiral Diamondback</a></li>
+                  <li><a href='supernova.html'>Supernova</a></li>
+                  <li><a href='next.html'>Next Steps</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+  <div class="col-md-6">
+      <center><div class="smooth" style= "position:relative;" data-wow-duration="2s"> 
+           <img src="img1.gif" alt="" class="mySlides" width="300" 
+     height="170" >
+           <img src="img2.gif" alt="" class="mySlides" width="300" 
+     height="170">
+           <img src="img3.gif" alt="" class="mySlides" width="300" 
+     height="170">
+           <img src="img4.gif" alt="" class="mySlides" width="300" 
+     height="170">
+           <img src="img5.gif" alt="" class="mySlides" width="300" 
+     height="170">
+           <img src="img6.gif" alt="" class="mySlides" width="300" 
+     height="170">
+           <img src="img7.gif" alt="" class="mySlides" width="300" 
+     height="170">
+      </div>
+        </center>
+  </div>
+
+  <div class='text-box'>
+            <h1> <br> <br><br><br><br>
+              JVisualiser</h1>
+            <p>JVisualiser is a website created and designed by soon-to-be alumni at Google Code Next.<br> The purpose and goal of the website are to help the user relax based on the different patterns<br> in visualizing music. The project begins with some white bars to a colorful diamondback pattern. <br>There will be seven discrete web pages (aside from the homepage) that you can go through, but only<br>six of the seven are the main ones you can interact with. It is your pick, not others.Choose your path,<br>and the creator/designer will release more updates as time goes on and permit them.</p>
+  </div>
+      </section>
+      
+      <!-- <script>
+        var navLinks = document.getElementById('navlinks');
+        function showMenu(){
+          navlinks.style.right = '0';
+        }
+        function hideMenu(){
+          navlinks.style.right = '-150px';
+        }
+        var myIndex = 0;
+        carousel();
+    
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 1500); // Change image every 2 seconds
+        }
+      </script> -->
+  <script src="script.js"></script>
+</body>
+
+</html>
